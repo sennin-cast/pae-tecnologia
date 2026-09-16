@@ -426,195 +426,323 @@
       </div>
     </section>
 
-    <section id="cases" class="space-y-8">
-      <div class="text-center max-w-3xl mx-auto space-y-2">
-        <div class="inline-flex items-center gap-1.5 text-xs text-emerald-400 font-semibold uppercase tracking-wider">
-          <i data-lucide="globe-2" class="w-4 h-4"></i>
-          Portfólio Comprovado em Produção
+    <section id="cases" class="space-y-10 sm:space-y-12">
+      <!-- Cabeçalho da Seção -->
+      <div class="text-center max-w-3xl mx-auto space-y-3">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#c4ad8a]/15 border border-[#c4ad8a]/35 text-[#e4d7c5] text-xs font-semibold tracking-wider uppercase">
+          <i data-lucide="globe-2" class="w-4 h-4 text-[#c4ad8a]"></i>
+          PROJETOS RECENTES NO AR
         </div>
-        <h2 class="text-2xl sm:text-4xl font-extrabold text-white font-serif-title">
-          Projetos Recentes no Ar
+        <h2 class="text-2xl sm:text-4xl font-extrabold text-white font-serif-title tracking-tight">
+          Projetos que já saíram do conceito e estão funcionando na prática.
         </h2>
-        <p class="text-sm text-[#c8c2b7]/80">
-          Acesse, navegue e comprove a solidez técnica, a direção estética e a usabilidade de cada uma das plataformas que construí em diferentes nichos de mercado:
+        <p class="text-xs sm:text-sm text-[#c8c2b7]/85 max-w-2xl mx-auto leading-relaxed">
+          Uma seleção de projetos desenvolvidos pela E.P.A Tecnologia para diferentes segmentos, unindo desenvolvimento web, experiência do usuário, performance e estratégia digital.
         </p>
       </div>
 
       <!-- Grid dos 5 Projetos Reais -->
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-6 sm:gap-8">
         
-        <!-- CASE 01: Maurício Gimenez (Consultoria & Plataforma Web) -->
-        <div class="lg:col-span-6 p-6 sm:p-8 rounded-3xl bg-card-dark border border-white/10 flex flex-col justify-between space-y-6 print-card hover:border-[#c4ad8a]/50 transition shadow-lg">
-          <div class="space-y-4">
-            <div class="flex items-center justify-between">
-              <span class="px-3 py-1 rounded-full bg-blue-500/15 border border-blue-500/30 text-blue-300 font-mono text-[10px] font-bold uppercase tracking-wider">
-                01 • Consultoria & Plataforma Web
+        <!-- PROJETO 01: Maurício Gimenez -->
+        <article class="col-span-1 md:col-span-6 lg:col-span-6 group rounded-3xl bg-[#1d1f20]/95 border border-white/10 hover:border-[#c4ad8a]/60 p-6 sm:p-8 flex flex-col justify-between space-y-6 hover:-translate-y-1.5 transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-[#c4ad8a]/10 print-card">
+          <div class="space-y-5">
+            <!-- Categoria e Link Rápido -->
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[10px] sm:text-[11px] font-bold tracking-wider text-[#c4ad8a] uppercase bg-[#c4ad8a]/10 border border-[#c4ad8a]/25 px-2.5 py-1 rounded-full">
+                01 • CONSULTORIA &amp; PLATAFORMA WEB
               </span>
-              <a href="https://mauriciogimenez.com.br" target="_blank" rel="noopener noreferrer" class="text-xs text-[#e4d7c5] hover:text-white flex items-center gap-1 underline underline-offset-4">
-                mauriciogimenez.com.br <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              <a
+                href="https://mauriciogimenez.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-xs text-[#e4d7c5]/80 hover:text-white flex items-center gap-1 transition group/link underline-offset-4 hover:underline"
+                aria-label="Acessar o site mauriciogimenez.com.br"
+              >
+                <span>mauriciogimenez.com.br</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5 transition-transform group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5"></i>
               </a>
             </div>
 
-            <h3 class="text-2xl font-bold text-white font-serif-title">Maurício Gimenez</h3>
+            <!-- Nome do Cliente -->
+            <h3 class="text-2xl sm:text-3xl font-bold text-white font-serif-title tracking-tight">
+              Maurício Gimenez
+            </h3>
+
+            <!-- Imagem / Identidade Visual Real -->
+            <div class="w-full h-48 sm:h-56 rounded-2xl overflow-hidden flex items-center justify-center p-6 bg-[#08090a] border border-white/10 shadow-inner">
+              <img
+                src="mauricio.jpg"
+                alt="Identidade visual do projeto Maurício Gimenez"
+                class="max-h-full max-w-full object-contain transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
+              >
+            </div>
+
+            <!-- Descrição -->
             <p class="text-xs sm:text-sm text-[#f6f3ee]/85 leading-relaxed">
-              Posicionamento digital de alto impacto para consultoria executiva, mentoria estratégica e autoridade profissional. Construído para atrair tomadores de decisão corporativos e líderes que exigem credibilidade imediata.
+              Desenvolvimento de presença digital profissional para apresentação da consultoria, autoridade e geração de novas oportunidades.
             </p>
-
-            <div class="space-y-2 pt-2 text-xs">
-              <div class="p-3 rounded-xl bg-black/30 border border-white/5 space-y-1">
-                <span class="text-[#e4d7c5] font-bold block text-[11px]">Desafio Superado:</span>
-                <p class="text-stone-300 text-[11px]">Transpor anos de bagagem profissional e visão de negócios em uma experiência limpa, sofisticada e direta ao ponto.</p>
-              </div>
-              <div class="p-3 rounded-xl bg-emerald-950/20 border border-emerald-500/20 space-y-1">
-                <span class="text-emerald-400 font-bold block text-[11px]">Resultado Estratégico:</span>
-                <p class="text-stone-300 text-[11px]">Apresentação de autoridade que estabelece posicionamento premium e facilita o contato de prospects B2B qualificados.</p>
-              </div>
-            </div>
           </div>
 
-          <div class="pt-4 border-t border-white/10 flex items-center justify-between text-xs">
-            <div class="flex items-center gap-2 text-stone-400">
-              <span class="px-2 py-0.5 rounded bg-white/5 font-mono text-[10px]">Alta Performance</span>
-              <span class="px-2 py-0.5 rounded bg-white/5 font-mono text-[10px]">Lead B2B</span>
+          <!-- Ação / Botão -->
+          <div class="pt-5 border-t border-white/10 flex items-center justify-between gap-4">
+            <div class="flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+              <span class="font-mono text-[11px] text-stone-400 uppercase tracking-wider">Projeto no Ar</span>
             </div>
-            <a href="https://mauriciogimenez.com.br" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1.5 rounded-lg bg-white/10 hover:bg-[#c4ad8a] hover:text-[#0e1412] text-white font-bold text-xs transition flex items-center gap-1.5">
-              Ver Projeto no Ar <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+            <a
+              href="https://mauriciogimenez.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Ver projeto de Maurício Gimenez"
+              class="group/btn inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/10 hover:bg-[#c4ad8a] text-white hover:text-[#0e1412] font-bold text-xs sm:text-sm tracking-wide transition-all duration-300 shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c4ad8a]"
+            >
+              <span>VER PROJETO</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-0.5"></i>
             </a>
           </div>
-        </div>
+        </article>
 
-        <!-- CASE 02: MrBritto Advocacia (Setor Jurídico) -->
-        <div class="lg:col-span-6 p-6 sm:p-8 rounded-3xl bg-card-dark border border-white/10 flex flex-col justify-between space-y-6 print-card hover:border-[#c4ad8a]/50 transition shadow-lg">
-          <div class="space-y-4">
-            <div class="flex items-center justify-between">
-              <span class="px-3 py-1 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-300 font-mono text-[10px] font-bold uppercase tracking-wider">
-                02 • Setor Jurídico & Direito
+        <!-- PROJETO 02: MrBritto Advocacia -->
+        <article class="col-span-1 md:col-span-6 lg:col-span-6 group rounded-3xl bg-[#1d1f20]/95 border border-white/10 hover:border-[#c4ad8a]/60 p-6 sm:p-8 flex flex-col justify-between space-y-6 hover:-translate-y-1.5 transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-[#c4ad8a]/10 print-card">
+          <div class="space-y-5">
+            <!-- Categoria e Link Rápido -->
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[10px] sm:text-[11px] font-bold tracking-wider text-[#c4ad8a] uppercase bg-[#c4ad8a]/10 border border-[#c4ad8a]/25 px-2.5 py-1 rounded-full">
+                02 • SETOR JURÍDICO &amp; DIREITO
               </span>
-              <a href="https://sennin-cast.github.io/mrbritto-advocacia/" target="_blank" rel="noopener noreferrer" class="text-xs text-[#e4d7c5] hover:text-white flex items-center gap-1 underline underline-offset-4">
-                mrbritto-advocacia <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              <a
+                href="https://sennin-cast.github.io/mrbritto-advocacia/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-xs text-[#e4d7c5]/80 hover:text-white flex items-center gap-1 transition group/link underline-offset-4 hover:underline"
+                aria-label="Acessar o site MrBritto Advocacia"
+              >
+                <span>mrbritto-advocacia</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5 transition-transform group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5"></i>
               </a>
             </div>
 
-            <h3 class="text-2xl font-bold text-white font-serif-title">MrBritto Advocacia</h3>
+            <!-- Nome do Cliente -->
+            <h3 class="text-2xl sm:text-3xl font-bold text-white font-serif-title tracking-tight">
+              MrBritto Advocacia
+            </h3>
+
+            <!-- Imagem / Identidade Visual Real -->
+            <div class="w-full h-48 sm:h-56 rounded-2xl overflow-hidden flex items-center justify-center p-6 bg-[#fcfaf7] border border-[#c4ad8a]/35 shadow-inner">
+              <img
+                src="moises.png"
+                alt="Logo do projeto MrBritto Advocacia"
+                class="max-h-full max-w-full object-contain transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
+              >
+            </div>
+
+            <!-- Descrição -->
             <p class="text-xs sm:text-sm text-[#f6f3ee]/85 leading-relaxed">
-              Estrutura digital imponente desenvolvida para escritório de advocacia, aliando discrição, respeito às diretrizes éticas da OAB e clareza nas áreas de atuação para clientes que necessitam de suporte jurídico célere e seguro.
+              Site institucional desenvolvido para posicionamento digital do escritório, apresentação das áreas de atuação e geração de contatos pelo WhatsApp.
             </p>
-
-            <div class="space-y-2 pt-2 text-xs">
-              <div class="p-3 rounded-xl bg-black/30 border border-white/5 space-y-1">
-                <span class="text-[#e4d7c5] font-bold block text-[11px]">Desafio Superado:</span>
-                <p class="text-stone-300 text-[11px]">Substituir termos burocráticos por uma comunicação acolhedora e resolutiva, eliminando a barreira entre o cliente e o advogado.</p>
-              </div>
-              <div class="p-3 rounded-xl bg-emerald-950/20 border border-emerald-500/20 space-y-1">
-                <span class="text-emerald-400 font-bold block text-[11px]">Resultado Estratégico:</span>
-                <p class="text-stone-300 text-[11px]">Roteamento ágil de consultas preliminares categorizadas por área do direito para o plantão de atendimento via WhatsApp.</p>
-              </div>
-            </div>
           </div>
 
-          <div class="pt-4 border-t border-white/10 flex items-center justify-between text-xs">
-            <div class="flex items-center gap-2 text-stone-400">
-              <span class="px-2 py-0.5 rounded bg-white/5 font-mono text-[10px]">Ética OAB</span>
-              <span class="px-2 py-0.5 rounded bg-white/5 font-mono text-[10px]">Segurança & Sigilo</span>
+          <!-- Ação / Botão -->
+          <div class="pt-5 border-t border-white/10 flex items-center justify-between gap-4">
+            <div class="flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+              <span class="font-mono text-[11px] text-stone-400 uppercase tracking-wider">Projeto no Ar</span>
             </div>
-            <a href="https://sennin-cast.github.io/mrbritto-advocacia/" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1.5 rounded-lg bg-white/10 hover:bg-[#c4ad8a] hover:text-[#0e1412] text-white font-bold text-xs transition flex items-center gap-1.5">
-              Ver Projeto no Ar <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+            <a
+              href="https://sennin-cast.github.io/mrbritto-advocacia/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Ver projeto de MrBritto Advocacia"
+              class="group/btn inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/10 hover:bg-[#c4ad8a] text-white hover:text-[#0e1412] font-bold text-xs sm:text-sm tracking-wide transition-all duration-300 shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c4ad8a]"
+            >
+              <span>VER PROJETO</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-0.5"></i>
             </a>
           </div>
-        </div>
+        </article>
 
-        <!-- CASE 03: UNA Essence (Saúde, Estética & Ateliê de Bem-Estar) -->
-        <div class="lg:col-span-4 p-6 sm:p-7 rounded-3xl bg-executive-gradient border border-[#c4ad8a]/35 flex flex-col justify-between space-y-6 print-card shadow-xl">
-          <div class="space-y-3">
-            <div class="flex items-center justify-between">
-              <span class="px-2.5 py-1 rounded-full bg-[#c4ad8a]/20 text-[#e4d7c5] font-mono text-[10px] font-bold uppercase tracking-wider">
-                03 • Saúde & Spa Botânico
+        <!-- PROJETO 03: UNA Essence -->
+        <article class="col-span-1 md:col-span-6 lg:col-span-8 lg:col-start-3 group rounded-3xl bg-[#1d1f20]/95 border border-white/10 hover:border-[#c4ad8a]/60 p-6 sm:p-8 flex flex-col justify-between space-y-6 hover:-translate-y-1.5 transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-[#c4ad8a]/10 print-card">
+          <div class="space-y-5">
+            <!-- Categoria e Link Rápido -->
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[10px] sm:text-[11px] font-bold tracking-wider text-[#c4ad8a] uppercase bg-[#c4ad8a]/10 border border-[#c4ad8a]/25 px-2.5 py-1 rounded-full">
+                03 • SAÚDE &amp; SPA BOTÂNICO
               </span>
-              <a href="https://sennin-cast.github.io/una-essence/" target="_blank" rel="noopener noreferrer" class="text-xs text-[#e4d7c5] hover:text-white flex items-center gap-1 underline underline-offset-4">
-                una-essence <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              <a
+                href="https://sennin-cast.github.io/una-essence/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-xs text-[#e4d7c5]/80 hover:text-white flex items-center gap-1 transition group/link underline-offset-4 hover:underline"
+                aria-label="Acessar o site UNA Essence"
+              >
+                <span>una-essence</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5 transition-transform group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5"></i>
               </a>
             </div>
 
-            <h3 class="text-xl font-bold text-white font-serif-title">UNA Essence</h3>
-            <p class="text-xs text-[#f6f3ee]/85 leading-relaxed">
-              Experiência imersiva inspirada na aromaterapia pura e no conceito da árvore da vida da terapeuta Aline. Um refúgio digital de autocuidado localizado no Centro de Nova Iguaçu (Sala 104).
-            </p>
+            <!-- Nome do Cliente -->
+            <h3 class="text-2xl sm:text-3xl font-bold text-white font-serif-title tracking-tight">
+              UNA Essence
+            </h3>
 
-            <div class="p-3 rounded-xl bg-black/40 border border-white/5 text-[11px] text-stone-300 space-y-1">
-              <strong class="text-[#e4d7c5] block">O Diferencial Criado:</strong>
-              <span>Fluxo interativo <em>"Monte a Sua Experiência"</em>: o cliente escolhe propósito (Autocuidado vs Voucher de Presente), tempo e terapias, enviando tudo organizado ao WhatsApp sem preços frios expostos.</span>
+            <!-- Imagem / Identidade Visual Real -->
+            <div class="w-full h-48 sm:h-56 rounded-2xl overflow-hidden flex items-center justify-center p-4 bg-[#1f2620] border border-[#c4ad8a]/30 shadow-inner">
+              <img
+                src="una.jpg"
+                alt="Logo da UNA Essence"
+                class="max-h-full max-w-full object-contain rounded-xl transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
+              >
             </div>
+
+            <!-- Descrição -->
+            <p class="text-xs sm:text-sm text-[#f6f3ee]/85 leading-relaxed">
+              Presença digital desenvolvida para apresentar a marca, seus serviços e experiências, com uma comunicação visual sofisticada e acolhedora.
+            </p>
           </div>
 
-          <div class="pt-3 border-t border-white/10 text-xs flex justify-between items-center text-stone-400">
-            <span class="font-mono text-[10px]">Nova Iguaçu — RJ</span>
-            <a href="https://sennin-cast.github.io/una-essence/" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1.5 rounded-lg bg-white/10 hover:bg-[#c4ad8a] hover:text-[#0e1412] text-white font-bold text-xs transition flex items-center gap-1.5">
-              Ver Projeto no Ar <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+          <!-- Ação / Botão -->
+          <div class="pt-5 border-t border-white/10 flex items-center justify-between gap-4">
+            <div class="flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+              <span class="font-mono text-[11px] text-stone-400 uppercase tracking-wider">Projeto no Ar</span>
+            </div>
+            <a
+              href="https://sennin-cast.github.io/una-essence/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Ver projeto de UNA Essence"
+              class="group/btn inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/10 hover:bg-[#c4ad8a] text-white hover:text-[#0e1412] font-bold text-xs sm:text-sm tracking-wide transition-all duration-300 shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c4ad8a]"
+            >
+              <span>VER PROJETO</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-0.5"></i>
             </a>
           </div>
-        </div>
+        </article>
 
-        <!-- CASE 04: Risi Melo (Clínica, Hospitalidade & Mesa Posta) -->
-        <div class="lg:col-span-4 p-6 sm:p-7 rounded-3xl bg-executive-gradient border border-[#c4ad8a]/35 flex flex-col justify-between space-y-6 print-card shadow-xl">
-          <div class="space-y-3">
-            <div class="flex items-center justify-between">
-              <span class="px-2.5 py-1 rounded-full bg-amber-600/20 text-amber-200 font-mono text-[10px] font-bold uppercase tracking-wider">
-                04 • Hospitalidade & Gastronomia
+        <!-- PROJETO 04: Risi Melo -->
+        <article class="col-span-1 md:col-span-6 lg:col-span-6 group rounded-3xl bg-[#1d1f20]/95 border border-white/10 hover:border-[#c4ad8a]/60 p-6 sm:p-8 flex flex-col justify-between space-y-6 hover:-translate-y-1.5 transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-[#c4ad8a]/10 print-card">
+          <div class="space-y-5">
+            <!-- Categoria e Link Rápido -->
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[10px] sm:text-[11px] font-bold tracking-wider text-[#c4ad8a] uppercase bg-[#c4ad8a]/10 border border-[#c4ad8a]/25 px-2.5 py-1 rounded-full">
+                04 • HOSPITALIDADE &amp; GASTRONOMIA
               </span>
-              <a href="https://sennin-cast.github.io/risi-melo/" target="_blank" rel="noopener noreferrer" class="text-xs text-amber-300 hover:text-white flex items-center gap-1 underline underline-offset-4">
-                risi-melo <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              <a
+                href="https://sennin-cast.github.io/risi-melo/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-xs text-[#e4d7c5]/80 hover:text-white flex items-center gap-1 transition group/link underline-offset-4 hover:underline"
+                aria-label="Acessar o site Risi Melo"
+              >
+                <span>risi-melo</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5 transition-transform group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5"></i>
               </a>
             </div>
 
-            <h3 class="text-xl font-bold text-white font-serif-title">Risi Melo</h3>
-            <p class="text-xs text-[#f6f3ee]/85 leading-relaxed">
-              Plataforma desenvolvida sob a máxima: <em>“Há mais em uma mesa do que aquilo que é servido”</em>. Traduzindo o calor do café especial artesanal e da mesa posta para clientes particulares e corporativos.
-            </p>
+            <!-- Nome do Cliente -->
+            <h3 class="text-2xl sm:text-3xl font-bold text-white font-serif-title tracking-tight">
+              Risi Melo
+            </h3>
 
-            <div class="p-3 rounded-xl bg-black/40 border border-white/5 text-[11px] text-stone-300 space-y-1">
-              <strong class="text-[#e4d7c5] block">O Diferencial Criado:</strong>
-              <span>Mecanismo exclusivo <em>"Monte a sua mesa"</em> com seleção de convidados, cafés e quitutes, além de uma área B2B voltada à venda escalável de <strong>Coffee Boxes</strong> para empresas.</span>
+            <!-- Imagem / Identidade Visual Real -->
+            <div class="w-full h-48 sm:h-56 rounded-2xl overflow-hidden flex items-center justify-center p-6 bg-[#fcfaf7] border border-[#c4ad8a]/35 shadow-inner">
+              <img
+                src="risi.png"
+                alt="Logo do projeto Risi Melo"
+                class="max-h-full max-w-full object-contain transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
+              >
             </div>
+
+            <!-- Descrição -->
+            <p class="text-xs sm:text-sm text-[#f6f3ee]/85 leading-relaxed">
+              Projeto digital desenvolvido para apresentação da marca e criação de uma presença web profissional voltada para o segmento de gastronomia e hospitalidade.
+            </p>
           </div>
 
-          <div class="pt-3 border-t border-white/10 text-xs flex justify-between items-center text-stone-400">
-            <span class="font-mono text-[10px]">Solução B2B & Pessoal</span>
-            <a href="https://sennin-cast.github.io/risi-melo/" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1.5 rounded-lg bg-white/10 hover:bg-[#c4ad8a] hover:text-[#0e1412] text-white font-bold text-xs transition flex items-center gap-1.5">
-              Ver Projeto no Ar <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+          <!-- Ação / Botão -->
+          <div class="pt-5 border-t border-white/10 flex items-center justify-between gap-4">
+            <div class="flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+              <span class="font-mono text-[11px] text-stone-400 uppercase tracking-wider">Projeto no Ar</span>
+            </div>
+            <a
+              href="https://sennin-cast.github.io/risi-melo/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Ver projeto de Risi Melo"
+              class="group/btn inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/10 hover:bg-[#c4ad8a] text-white hover:text-[#0e1412] font-bold text-xs sm:text-sm tracking-wide transition-all duration-300 shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c4ad8a]"
+            >
+              <span>VER PROJETO</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-0.5"></i>
             </a>
           </div>
-        </div>
+        </article>
 
-        <!-- CASE 05: Academia Maia (Fitness, Saúde & Treinamento) -->
-        <div class="lg:col-span-4 p-6 sm:p-7 rounded-3xl bg-executive-gradient border border-white/10 flex flex-col justify-between space-y-6 print-card shadow-xl hover:border-emerald-500/40 transition">
-          <div class="space-y-3">
-            <div class="flex items-center justify-between">
-              <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-mono text-[10px] font-bold uppercase tracking-wider">
-                05 • Fitness & Performance
+        <!-- PROJETO 05: Academia Maia -->
+        <article class="col-span-1 md:col-span-12 md:max-w-md md:mx-auto lg:max-w-none lg:col-span-6 lg:mx-0 group rounded-3xl bg-[#1d1f20]/95 border border-white/10 hover:border-[#c4ad8a]/60 p-6 sm:p-8 flex flex-col justify-between space-y-6 hover:-translate-y-1.5 transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-[#c4ad8a]/10 print-card">
+          <div class="space-y-5">
+            <!-- Categoria e Link Rápido -->
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-[10px] sm:text-[11px] font-bold tracking-wider text-[#c4ad8a] uppercase bg-[#c4ad8a]/10 border border-[#c4ad8a]/25 px-2.5 py-1 rounded-full">
+                05 • FITNESS &amp; PERFORMANCE
               </span>
-              <a href="https://sennin-cast.github.io/academia-maia/" target="_blank" rel="noopener noreferrer" class="text-xs text-emerald-400 hover:text-white flex items-center gap-1 underline underline-offset-4">
-                academia-maia <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              <a
+                href="https://sennin-cast.github.io/academia-maia/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-xs text-[#e4d7c5]/80 hover:text-white flex items-center gap-1 transition group/link underline-offset-4 hover:underline"
+                aria-label="Acessar o site Academia Maia"
+              >
+                <span>academia-maia</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5 transition-transform group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5"></i>
               </a>
             </div>
 
-            <h3 class="text-xl font-bold text-white font-serif-title">Academia Maia</h3>
-            <p class="text-xs text-[#f6f3ee]/85 leading-relaxed">
-              Presença enérgica e envolvente para academia e centro de treinamento. Desenvolvido para quebrar a frieza de aplicativos genéricos e valorizar o acompanhamento humano de instrutores de verdade.
-            </p>
+            <!-- Nome do Cliente -->
+            <h3 class="text-2xl sm:text-3xl font-bold text-white font-serif-title tracking-tight">
+              Academia Maia
+            </h3>
 
-            <div class="p-3 rounded-xl bg-black/40 border border-white/5 text-[11px] text-stone-300 space-y-1">
-              <strong class="text-emerald-400 block">O Diferencial Criado:</strong>
-              <span>Demonstração clara das modalidades, quadro de horários, apresentação da infraestrutura e CTAs dinâmicos para agendamento instantâneo de aulas experimentais via WhatsApp.</span>
+            <!-- Imagem / Identidade Visual Real -->
+            <div class="w-full h-48 sm:h-56 rounded-2xl overflow-hidden flex items-center justify-center p-5 bg-[#121212] border border-white/10 shadow-inner">
+              <img
+                src="maia.jpg"
+                alt="Logo do projeto Academia Maia"
+                class="max-h-full max-w-full object-contain transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
+              >
             </div>
+
+            <!-- Descrição -->
+            <p class="text-xs sm:text-sm text-[#f6f3ee]/85 leading-relaxed">
+              Site desenvolvido para apresentar a academia, seus diferenciais, modalidades e possibilidades de contato, com foco em conversão e geração de novos alunos.
+            </p>
           </div>
 
-          <div class="pt-3 border-t border-white/10 text-xs flex justify-between items-center text-stone-400">
-            <span class="font-mono text-[10px]">Alta Conversão</span>
-            <a href="https://sennin-cast.github.io/academia-maia/" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1.5 rounded-lg bg-white/10 hover:bg-[#c4ad8a] hover:text-[#0e1412] text-white font-bold text-xs transition flex items-center gap-1.5">
-              Ver Projeto no Ar <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+          <!-- Ação / Botão -->
+          <div class="pt-5 border-t border-white/10 flex items-center justify-between gap-4">
+            <div class="flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+              <span class="font-mono text-[11px] text-stone-400 uppercase tracking-wider">Projeto no Ar</span>
+            </div>
+            <a
+              href="https://sennin-cast.github.io/academia-maia/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Ver projeto de Academia Maia"
+              class="group/btn inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/10 hover:bg-[#c4ad8a] text-white hover:text-[#0e1412] font-bold text-xs sm:text-sm tracking-wide transition-all duration-300 shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c4ad8a]"
+            >
+              <span>VER PROJETO</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-0.5"></i>
             </a>
           </div>
-        </div>
+        </article>
 
       </div>
     </section>
